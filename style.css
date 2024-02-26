@@ -14,3 +14,8 @@ body{
     color: var(--roxo);
     font-family: "Chakra Petch", sans-serif;
 }
+
+conteudo-principal {
+    display: flex;
+    flex-direction
+}
