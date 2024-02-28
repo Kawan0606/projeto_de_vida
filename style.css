@@ -2,7 +2,7 @@
 
 :root{
     --cor-de-fundo:#314B37;
-    --roxo:#7fbb91;
+    --verde:#7fbb91;
     --azul:#0500FF;
     --botao-ativo:#3A375E;
     --botao-inativo:rgba(58, 55, 94, 0.5);
@@ -18,4 +18,16 @@ body{
 conteudo-principal {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.titulo-principal{
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
+    
 }
