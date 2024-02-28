@@ -17,5 +17,5 @@ body{
 
 conteudo-principal {
     display: flex;
-    flex-direction
+    flex-direction: column;
 }
