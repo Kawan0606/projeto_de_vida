@@ -33,12 +33,6 @@ function comecaCronometro(){
     setInterval(atualizaCronometro,1000);
 }
 
-
-function comecaCronometro(){
-    atualizaCronometro();
-    setInterval(atualizaCronometro,1000);
-}
-
 comecaCronometro();
 
 function calculaTempo(tempoObjetivo) {
