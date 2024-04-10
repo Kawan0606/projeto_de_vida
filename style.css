@@ -3,9 +3,9 @@
 /*criando variáveis*/
 :root{
     --cor-de-fundo:#001170;
-    --verde:#fbff00;
+    --verde:rgb(0, 140, 255);
     --azul:#0500FF;
-    --botao-ativo:#fbff00;
+    --botao-ativo:#fbff00ad;
     --botao-inativo:rgb(0, 140, 255);
     --texto-fundo:rgba(255, 255, 255, 0.3);
 }
