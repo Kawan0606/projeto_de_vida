@@ -3,54 +3,53 @@
 /*criando variáveis*/
 :root{
     --cor-de-fundo:#0064c2;
-    --verde:rgb(255, 255, 255);
+    --branco:rgb(255, 255, 255);
     --azul:#0500FF;
     --botao-ativo:#fbff00d5;
     --botao-inativo:rgb(0, 140, 255);
     --texto-fundo:rgba(255, 255, 255, 0.3);
 }
 
-body { 
-    background-color: var(--cor-de-fundo); 
-    color: var(--verde); 
-    font-family:'Chakra Petch', sans-serif;  
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: 'Chakra Petch', sans-serif;
 }
 
-
-.conteudo-principal { 
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
-    max-width: 1200px; 
-    width: 100%; 
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 
-.titulo-principal { 
-    text-align: left; 
-    width: 100%; 
-    font-size: 20px; 
-    padding: 1em;
-}
- 
-.titulo-principal span { 
-    color: var(--lilas);
+.titulo-principal {
+    text-align: left;
+    width: 100%;
+    font-size: 20px;
 }
 
-.botao { 
-    font-family: «Crakra Petch», sans-serif; 
-    background-color: var(--botao-inativo); 
-    color: var(--branco); 
-    display: flex; 
-    justify-content: center; 
-    padding: 1em; 
-    font-size: 18px; 
-    align-items: center; 
+.titulo-principal span {
+    color: var(--azul);
+}
+
+
+.botao {
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: var(--botao-inativo);
+    color: var(--azul);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
     width: 100%;
-    border-bottom: 4px solid var(--botao-ativo); 
-    border-left: 2px solid var(--botao-ativo);  
-    border-right: 2px solid var(--botao-ativo);  
+    border-bottom: 4px solid var(--botao-ativo);
+    border-left: 2px solid var(--botao-ativo);
+    border-right: 2px solid var(--botao-ativo);
     border-top: none;
 }
 
@@ -64,7 +63,7 @@ body {
 
 .botao.ativo{
     background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--rosa);
+    border-bottom: 4px solid var(--azul);
 }
 
 .abas-textos{
@@ -86,7 +85,7 @@ body {
 }
 .aba-conteudo-titulo-secundario{
     text-align: center;
-    color: var(--rosa);
+    color: var(--azul);
     text-transform: uppercase;
 }
 
