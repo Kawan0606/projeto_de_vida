@@ -33,7 +33,7 @@ body {
 }
 
 .titulo-principal span {
-    color: var(--azul);
+    color: var(--rosa);
 }
 
 
@@ -63,7 +63,7 @@ body {
 
 .botao.ativo{
     background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--azul);
+    border-bottom: 4px solid var(--rosa);
 }
 
 .abas-textos{
@@ -85,15 +85,32 @@ body {
 }
 .aba-conteudo-titulo-secundario{
     text-align: center;
-    color: var(--azul);
+    color: var(--rosa);
     text-transform: uppercase;
 }
 
 .contador{  /*aula6*/
-    font-size: 20px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
+.contador-digito{
+    padding: 0 16px;
+    text-align: center;
+    flex-wrap: wrap;
+    min-width: 100px;
+}
+
+.contador-digito-numero{
+    font-size: 80px;
+    margin: 0;
+}
+
+.contador-digito-texto{
+    color: var(--rosa);
+    font-size: 20px;
+    margin: 0;
+}
 @media screen and (min-width: 768px) {
     .botoes {
         display: flex;
