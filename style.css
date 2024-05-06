@@ -6,7 +6,7 @@
     --branco:rgb(255, 255, 255);
     --azul:#ffffff;
     --botao-ativo:#000000b2;
-    --botao-inativo:rgba(0, 0, 0, 0.541);
+    --botao-inativo:rgb(0, 0, 0);
     --texto-fundo:#000000;
 }
 
